@@ -6,7 +6,7 @@
   --second-text-color: #5f5b53;
   --background-color: #fffcf4;
   --white-color: #fff;
-  --font-heading: Sen, sans-serif;
+  --font-heading: "Sen", sans-serif;
 }
 
 /* Đổi đơn vị PX sang rem */
@@ -112,7 +112,6 @@ li {
 
 .hero .main-content {
   display: flex;
-
 }
 .hero .left-box {
   width: 48.7%;
@@ -147,7 +146,7 @@ li {
 .hero .left-box .item {
   display: flex;
   margin: 7px 0; /* top-bottom: 7px và left-right: 0 */
-  margin-top: 7px;
+  margin-top: 7%;
   margin-bottom: 7px;
   align-items: center;
 }
@@ -167,11 +166,11 @@ li {
   line-height: 26px;
 }
 
-.hero .left-box .course-content span:last-child { 
-  color: var(--primary-text-color); 
+.hero .left-box .course-content span:last-child {
+  color: var(--primary-text-color);
   font-size: 1.8rem;
   line-height: 30px;
-  font-weight: 600;    
+  font-weight: 600;
 }
 
 .hero .left-box .summary .item:first-child {
@@ -186,6 +185,55 @@ li {
   width: 51.3%;
   padding-left: 116px;
 }
+.hero .right-box h1 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 5.8rem;
+  width: 488px;
+  line-height: 68px;
+  letter-spacing: -2%;
+  color: var(--primary-text-color);
+}
+.hero .right-box .desc {
+  font-size: 1.8rem;
+  line-height: 30px;
+  color: var(--second-text-color);
+  margin-top: 28px;
+  margin-bottom: 38px;
+}
+.call-to-action{
+  display: flex;
+}
+.hero .right-box .btn-see-courses {
+  width: 180px;
+  line-height: 64px;
+  background-color: #ffb900;
+  height: 64px;  
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.hero .right-box .btn-watch-video{ 
+  display: flex;
+  background: none;
+  border: none;
+  align-items: center;
+  margin-left: 28px;
+}
+.hero .right-box .btn-watch-video span{  
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: -10px; 
+}
+
+
+
+/* End header section(kết thúc CSS cho phần header) */
 
 /* End header section(kết thúc CSS cho phần header) */
 
@@ -193,8 +241,4 @@ li {
  <div class="info-box">
   div
 
-</section>
-
-
-
-
+</section>;
