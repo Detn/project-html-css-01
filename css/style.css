@@ -380,15 +380,18 @@ button {
 
 /******************************* Testimonials*******************************/
 .testimonials {
-  background: #2e2100;
   color: white;
-  padding-top: 96px;
-  padding-left: 135px;
-  padding-bottom: 96px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .testimonials .main-content {
   display: flex;
   justify-content: space-between;
+  background: #2e2100;
+  padding-top: 104px;
+  padding-left: 150px;
+  padding-bottom: 88px;
 }
 .testimonials .left-box .avatar {
   width: 72px;
@@ -440,5 +443,4 @@ button {
   top: 30px;
   left: 30px;
 }
-
 /* End header section(kết thúc CSS cho phần header) */
